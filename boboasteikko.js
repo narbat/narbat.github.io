@@ -15,8 +15,3 @@ neg.addEventListener("click", () => {
     localStorage.answer = JSON.stringify(bobo);
     alert(bobo);
 })
-
-const neutr = document.getElementById("neutr")
-neutr.addEventListener("click", () => {
-    alert(bobo);
-})
